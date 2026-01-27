@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "hotbarinfo",
+	"version": "${version}",
+	"name": "HotBarInfo",
+	"description": "Minimalist HUD utility that displays real-time player coordinates (X | Y | Z) directly above the hotbar.",
+	"authors": [
+		"StarryMoon92"
+	],
+	"contact": {
+		"homepage": "https://starrymoon92.net/",
+		"sources": "https://github.com/kK0MARU/"
+	},
+	"license": "MIT",
+	"icon": "assets/hotbarinfo/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.starrymoon92.hotbarinfo.HotBarInfo"
+		],
+		"fabric-datagen": [
+			"net.starrymoon92.hotbarinfo.HotBarInfoDataGenerator"
+		],
+		"client": [
+			"net.starrymoon92.hotbarinfo.HotBarInfoClient"
+		]
+	},
+	"mixins": [
+		"hotbarinfo.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21.10",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
