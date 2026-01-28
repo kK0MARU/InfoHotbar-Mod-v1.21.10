@@ -6,8 +6,7 @@
 
 InfoHotbar is a lightweight client-side Fabric mod that displays essential information directly above your hotbar. Designed to replace the cluttered F3 debug screen, it gives you exactly what you need for survival and exploration, blending perfectly with the vanilla interface.
 
-![InfoHotbar Screenshot](https://i.imgur.com/YOUR_SCREENSHOT.png)
-*(Please replace this link with your actual screenshot!)*
+![InfoHotbar Screenshot](https://i.imgur.com/8cS5zDP.png)
 
 ## ✨ Key Features
 
